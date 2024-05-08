@@ -32,11 +32,11 @@ Ensure you have administrative access (ability to use `sudo`) on your Ubuntu-bas
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone <https://github.com/gustavobragac/ubuntu-init>
+   git clone https://github.com/gustavobragac/ubuntu-init
 Navigate to the directory containing the script:
 bash
 Copy code
-cd <ubuntu-init>
+cd ubuntu-init
 Make the script executable:
 bash
 Copy code
@@ -51,7 +51,7 @@ After running the script, you may need to log out and log back in or reboot your
 After running the automated setup script, some software requires manual installation to ensure the latest version or specific configurations are applied. Below is a checklist of such software:
 
     ```bash
-    cd <repository-name>
+    cd ubuntu-init
     chmod +x setup.sh
     sudo ./setup.sh
     ```
@@ -62,6 +62,6 @@ After running the automated setup script, some software requires manual installa
 
 - [ ] **Visual Studio Code**: Download and install from the [official site](https://code.visualstudio.com/).
 - [ ] **PyCharm**: Choose the appropriate edition (Community or Professional) and download from [JetBrains](https://www.jetbrains.com/pycharm/download/).
-- [ ] **asdf**: Follow the installation and usage guide on the [official asdf GitHub page](https://github.com/asdf-vm/asdf). Remember to install plugins for Python and npm as needed.
+- [ ] **asdf**: Follow the installation and usage guide on the [official asdf GitHub page](https://github.com/asdf-vm/asdf). Remember to install plugins for the as needed.
 - [ ] **Insomnia**: Download the latest version from [Insomnia's website](https://insomnia.rest/download).
 - [ ] **DBeaver**: Obtain the latest release from [DBeaver's official website](https://dbeaver.io/download/).
